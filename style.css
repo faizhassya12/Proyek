@@ -1,0 +1,87 @@
+/* Mengatur semua elemen */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Tampilan body */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background-color: #2563eb;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Hero */
+.hero {
+    background-color: #eff6ff;
+    text-align: center;
+
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    margin-bottom: 25px;
+}
+
+/* Tombol */
+button {
+    background-color: #2563eb;
+    color: white;
+
+    border: none;
+    padding: 12px 25px;
+
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Section */
+.about,
+.contact {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.about {
+    background-color: white;
+}
+
+.contact {
+    background-color: #f3f4f6;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
